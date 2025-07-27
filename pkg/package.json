@@ -1,0 +1,15 @@
+{
+  "name": "go_game",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "go_game_bg.wasm",
+    "go_game.js",
+    "go_game.d.ts"
+  ],
+  "main": "go_game.js",
+  "types": "go_game.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
