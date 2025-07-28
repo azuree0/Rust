@@ -1,0 +1,15 @@
+{
+  "name": "go-ecommerce",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "go_ecommerce_bg.wasm",
+    "go_ecommerce.js",
+    "go_ecommerce.d.ts"
+  ],
+  "main": "go_ecommerce.js",
+  "types": "go_ecommerce.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

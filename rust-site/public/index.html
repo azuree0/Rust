@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go E-commerce & Game Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Go E-commerce & Game Demo</h1>
+        
+        <!-- E-commerce Section -->
+        <section id="ecommerce">
+            <h2>Products</h2>
+            <div id="products"></div>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+        </section>
+        
+        <!-- Go Game Section -->
+        <section id="game">
+            <h2>9x9 Go Game</h2>
+            <canvas id="go-board" width="450" height="450"></canvas>
+            <p>Current Player: <span id="current-player">Black</span></p>
+            <p>Captures - Black: <span id="black-captures">0</span>, White: <span id="white-captures">0</span></p>
+            <p id="game-status"></p>
+            <button id="pass-button">Pass</button>
+        </section>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
